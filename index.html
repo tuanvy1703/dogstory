@@ -9,7 +9,9 @@
   </head>
   <body>
     <script>
-      window.location="https://blackhole203.com"+window.location.pathname;
+      let url = window.location.search;
+        url = url.replace('?','');
+      window.location="https://blackhole203.com/"+url;
     </script>
     
   </body>
